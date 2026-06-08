@@ -100,32 +100,18 @@ Replace `your_groq_api_key` with your actual API key.
 
 ## Running the Application
 
-### Streamlit Frontend
+### Flask Frontend
 
-Start the Streamlit application:
+Start the Flask application:
 
 ```bash
-streamlit run app.py
+python flask_app.py
 ```
 
 The application will be available at:
 
 ```text
 http://localhost:8501
-```
-
-### Flask Backend (Optional)
-
-If the project requires the Flask backend, run:
-
-```bash
-python flask_app.py
-```
-
-The backend will typically run on:
-
-```text
-http://localhost:5000
 ```
 
 ## Usage
@@ -135,8 +121,8 @@ http://localhost:5000
 1. Launch the application.
 2. Upload a research paper in PDF format.
 3. Wait for the document to be processed.
-4. Generate the summary.
-5. Review the summarized content.
+4. Chatbot will appear.
+5. Summarize or ask other questions related to the paper.
 
 ### Ask Questions
 
