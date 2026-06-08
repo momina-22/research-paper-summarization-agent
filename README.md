@@ -23,16 +23,20 @@ An AI-powered application that automatically summarizes research papers and enab
 ## Project Structure
 
 ```text
-research-paper-summarization-agent/
+research-paper-summarizer/
 │
-├── summarizer/              # Core summarization modules
-├── .streamlit/              # Streamlit configuration
-├── app.py                   # Streamlit application
-├── flask_app.py             # Flask backend
-├── flask_app_old.py         # Previous backend implementation
-├── test.py                  # Testing scripts
-├── requirements.txt         # Project dependencies
+├── flask_app.py                  # Flask frontend
+├── summarizer/
+│   ├── __init__.py
+│   ├── extractor.py        # PDF text extraction
+│   ├── preprocessor.py     # Text cleaning
+│   ├── chunker.py          # Text chunking
+│   └── llm_engine.py       # LangChain
+├── requirements.txt
+├── .env                    # Grok API key
+├── .gitignore              # ignore .env
 └── README.md
+
 ```
 
 ## How It Works
