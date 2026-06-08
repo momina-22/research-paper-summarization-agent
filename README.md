@@ -15,8 +15,7 @@ An AI-powered application that automatically summarizes research papers and enab
 ## Technologies Used
 
 * **Python**
-* **Streamlit** – User Interface
-* **Flask** – Backend Services
+* **Flask** – User Interface
 * **LangChain** – LLM Workflow Management
 * **Groq API** – Large Language Model Inference
 * **PyMuPDF / PDF Processing Libraries** – PDF Text Extraction
